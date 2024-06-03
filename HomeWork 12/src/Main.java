@@ -10,6 +10,7 @@ public class Main {
         Author palahniuk = new Author("Chuck", "Palahniuk");
         Author palahniuk1 = new Author("Chuck", "Palahniuk");
         Book haunted = new Book("Haunted", palahniuk, 2005);
+        System.out.println(palahniuk1.equals(palahniuk));
 
         System.out.println(bookOfOrwell);
         System.out.println("\n" + theInvincible);
