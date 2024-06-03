@@ -41,6 +41,12 @@ public class Main {
      private static double findAverageSalary(){
         return toSumSalaries() / employees.length;
      }
+     private static void printFIO() {
+         for (Employee employee : employees) {
+             System.out.println(employee.getFirstName() + " " + employee.getLastName() + ".");
+         }
+        System.out.println();
+    }
 
 
     public static void main(String[] args) {
@@ -67,6 +73,7 @@ public class Main {
         printSeparator();
         System.out.println("Средняя зарплата: " + Math.round(findAverageSalary()));
         printSeparator();
+        printFIO();
 
     }
 
