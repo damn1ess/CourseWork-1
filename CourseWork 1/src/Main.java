@@ -45,7 +45,6 @@ public class Main {
          for (Employee employee : employees) {
              System.out.println(employee.getFirstName() + " " + employee.getLastName() + ".");
          }
-        System.out.println();
     }
 
 
